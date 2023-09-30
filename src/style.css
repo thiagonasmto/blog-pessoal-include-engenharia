@@ -1,40 +1,88 @@
 * {margin: 0; padding: 0; box-sizing: border-box;}
 
+:root{
+    --header-color: blue;
+    --perfil-color: red;
+    --include-color: yellow;
+    --posters-color: green;
+    --footer-color: pink;
+}
+
 .flex-center{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+body{
+    
+}
+
 header{
-     
+     background-color: var(--header-color);
 }
 
 main{
-    
+    height: 90%;
 }
 
-#perfil{
-    
+.perfil{
+    display: flex;
+    justify-content: center;
+    background-color: var(--perfil-color); 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 500px;
+    width: 100%; 
+    gap: 30px;
 }
 
-#porque-include{
+.photo-perfil{
+    background-color: var(--header-color);
+    justify-content: center;
+    width: 500px;
+}
+
+.descrition-perfil{
+    background-color: var(--posters-color);
+    justify-content: center;
+    width: 700px;
+}
+
+.porque-include{
+    background-color: var(--include-color);
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 300px;
     
 }
 
 .posters-competencias{
-
+    background-color: var(--posters-color); 
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
 
 .posters-conteudo{
     display: flex;
+    gap: 20px;
 }
 
 .poster{
-    
+    background-color: var(--header-color);
+    padding-top: 10px;
+    height: 200px;
+    width: 200px;
 }
 
 footer{
     display: flex;
     justify-content: center;
+    background-color: var(--footer-color);
+    padding-top: 15px;
+    width: 100%;
+    height: 200px;
+    bottom: 0;
 }
