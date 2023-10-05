@@ -1,11 +1,10 @@
 * {margin: 0; padding: 0; box-sizing: border-box;}
 
 :root{
-    --header-color: blue;
-    --perfil-color: red;
-    --include-color: yellow;
-    --posters-color: green;
-    --footer-color: pink;
+    --perfil-color: #393939;
+    --include-color: #665F5B;
+    --posters-color: #B2672D;
+    --footer-color: #393939;
 }
 
 body{
@@ -21,7 +20,7 @@ body{
     width: 100%;
     height: 758px;
     gap: 60px;
-    background-color: #393939;
+    background-color: var(--perfil-color);
 }
 
 .card-perfil{
@@ -88,7 +87,7 @@ body{
     gap: 32px;
 }
 
-.lattes{
+.lattes, .github{
     color: #FFF;
     font-family: Lato;
     font-size: 23.143px;
@@ -101,30 +100,25 @@ body{
     background: #733612;
     box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.50);
     border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
 
-.github{
-    color: #FFF;
-    font-family: Lato;
-    font-size: 23.143px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    width: 151px;
-    height: 62px;
-    border-radius: 15px;
-    background: #733612;
-    box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.50);
-    border: none;
+.lattes:hover, .github:hover {
+    background-color: #52220b;
+}
+
+.lattes:active, .github:active {
+    transform: scale(0.95);
 }
 
 .include-explication{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1512px;
+    width: 100%;
     height: 434px;
-    background: #665F5B;
+    background-color: var(--include-color);
 }
 
 .title-explication{
@@ -143,9 +137,9 @@ body{
     color: #FFF;
     text-align: center;
     font-family: Lato;
-    font-size: 25.275px;
+    font-size: 27px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
 }
 
@@ -153,9 +147,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1512px;
+    width: 100%;
     height: 818px;
-    background: #B2672D;
+    background: var(--posters-color);
+    overflow: hidden;
 }
 
 .grid-projects{
@@ -168,6 +163,8 @@ body{
 }
 
 .components{
+    display: flex;
+    flex-direction: column;
     width: 548px;
     height: 247px;
     border-radius: 12px;
@@ -185,7 +182,14 @@ body{
     line-height: normal;
 }
 
+.projects a{
+    color: #313131;
+    text-decoration: none;
+}
+
 .title-components{
+    padding: 15px;
+    padding-left: 30px;
     display: flex;
     gap: 10px;
     color: #313131;
@@ -213,21 +217,66 @@ body{
     line-height: normal;
 }
 
+.description-components{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    padding-left: 30px;
+    width: 461px;
+    color: #000;
+    font-family: Lato;
+    font-size: 18.15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cicle-lenguage{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #656565;
+    text-align: center;
+    font-family: Lato;
+    font-size: 25.275px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 footer{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 203px;
-    background: #393939;
+    background: var(--footer-color);
 }
 
 footer p{
     margin-top: auto;
     color: #FFF;
     font-family: Lato;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-bottom: 30px;
+}
+
+.icons-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.line-left{
+    padding-right: 24.5px;
+}
+
+.line-rigth{
+    padding-left: 25px;
 }
