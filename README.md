@@ -31,7 +31,7 @@ Você pode acessar o meu portfólio online [aqui](inserir-o-link-do-seu-projeto)
 
 ## Autor
 
-- **Thiago Lopes** - [Seu perfil no GitHub](https://github.com/thiagonasmto)
+- **Thiago Lopes**
 
 ## Agradecimentos
 
