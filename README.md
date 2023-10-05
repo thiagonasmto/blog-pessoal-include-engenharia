@@ -23,7 +23,7 @@ O projeto é uma representação criativa do meu trabalho e experiência até o 
 
 ## Como Visualizar
 
-Você pode acessar o meu portfólio online [aqui](inserir-o-link-do-seu-projeto).
+Você pode acessar o meu portfólio online [aqui]([inserir-o-link-do-seu-projeto](https://thiagonasmto.github.io/blog-pessoal-include-engenharia/)).
 
 ## Desinger da página
 
