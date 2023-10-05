@@ -27,7 +27,7 @@ Você pode acessar o meu portfólio online [aqui](https://thiagonasmto.github.io
 
 ## Desinger da página
 
-[Inserir capturas de tela ou imagens do seu portfólio]
+![Minha Imagem](docs/perfil-include.png)
 
 ## Autor
 
