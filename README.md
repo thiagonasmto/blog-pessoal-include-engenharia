@@ -25,7 +25,7 @@ O projeto é uma representação criativa do meu trabalho e experiência até o 
 
 Você pode acessar o meu portfólio online [aqui](https://thiagonasmto.github.io/blog-pessoal-include-engenharia/).
 
-## Desinger da página
+## Designer da página
 
 ![Minha Imagem](docs/perfil-include.png)
 
